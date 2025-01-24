@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F812465B2D43610E00B0786D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F812463C2D43610D00B0786D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F81246432D43610D00B0786D;
+			remoteInfo = SagarTaskCryptoApp;
+		};
+		F81246652D43610F00B0786D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F812463C2D43610D00B0786D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F81246432D43610D00B0786D;
+			remoteInfo = SagarTaskCryptoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F81246442D43610D00B0786D /* SagarTaskCryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SagarTaskCryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F812465A2D43610E00B0786D /* SagarTaskCryptoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SagarTaskCryptoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81246642D43610F00B0786D /* SagarTaskCryptoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SagarTaskCryptoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F812466C2D43610F00B0786D /* Exceptions for "SagarTaskCryptoApp" folder in "SagarTaskCryptoApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F81246432D43610D00B0786D /* SagarTaskCryptoApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F81246462D43610D00B0786D /* SagarTaskCryptoApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F812466C2D43610F00B0786D /* Exceptions for "SagarTaskCryptoApp" folder in "SagarTaskCryptoApp" target */,
+			);
+			path = SagarTaskCryptoApp;
+			sourceTree = "<group>";
+		};
+		F812465D2D43610E00B0786D /* SagarTaskCryptoAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SagarTaskCryptoAppTests;
+			sourceTree = "<group>";
+		};
+		F81246672D43610F00B0786D /* SagarTaskCryptoAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SagarTaskCryptoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F81246412D43610D00B0786D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81246572D43610E00B0786D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81246612D43610F00B0786D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F812463B2D43610D00B0786D = {
+			isa = PBXGroup;
+			children = (
+				F81246462D43610D00B0786D /* SagarTaskCryptoApp */,
+				F812465D2D43610E00B0786D /* SagarTaskCryptoAppTests */,
+				F81246672D43610F00B0786D /* SagarTaskCryptoAppUITests */,
+				F81246452D43610D00B0786D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F81246452D43610D00B0786D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F81246442D43610D00B0786D /* SagarTaskCryptoApp.app */,
+				F812465A2D43610E00B0786D /* SagarTaskCryptoAppTests.xctest */,
+				F81246642D43610F00B0786D /* SagarTaskCryptoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F81246432D43610D00B0786D /* SagarTaskCryptoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F812466D2D43610F00B0786D /* Build configuration list for PBXNativeTarget "SagarTaskCryptoApp" */;
+			buildPhases = (
+				F81246402D43610D00B0786D /* Sources */,
+				F81246412D43610D00B0786D /* Frameworks */,
+				F81246422D43610D00B0786D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F81246462D43610D00B0786D /* SagarTaskCryptoApp */,
+			);
+			name = SagarTaskCryptoApp;
+			packageProductDependencies = (
+			);
+			productName = SagarTaskCryptoApp;
+			productReference = F81246442D43610D00B0786D /* SagarTaskCryptoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F81246592D43610E00B0786D /* SagarTaskCryptoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81246722D43610F00B0786D /* Build configuration list for PBXNativeTarget "SagarTaskCryptoAppTests" */;
+			buildPhases = (
+				F81246562D43610E00B0786D /* Sources */,
+				F81246572D43610E00B0786D /* Frameworks */,
+				F81246582D43610E00B0786D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F812465C2D43610E00B0786D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F812465D2D43610E00B0786D /* SagarTaskCryptoAppTests */,
+			);
+			name = SagarTaskCryptoAppTests;
+			packageProductDependencies = (
+			);
+			productName = SagarTaskCryptoAppTests;
+			productReference = F812465A2D43610E00B0786D /* SagarTaskCryptoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F81246632D43610F00B0786D /* SagarTaskCryptoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81246752D43610F00B0786D /* Build configuration list for PBXNativeTarget "SagarTaskCryptoAppUITests" */;
+			buildPhases = (
+				F81246602D43610F00B0786D /* Sources */,
+				F81246612D43610F00B0786D /* Frameworks */,
+				F81246622D43610F00B0786D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F81246662D43610F00B0786D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F81246672D43610F00B0786D /* SagarTaskCryptoAppUITests */,
+			);
+			name = SagarTaskCryptoAppUITests;
+			packageProductDependencies = (
+			);
+			productName = SagarTaskCryptoAppUITests;
+			productReference = F81246642D43610F00B0786D /* SagarTaskCryptoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F812463C2D43610D00B0786D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F81246432D43610D00B0786D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F81246592D43610E00B0786D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F81246432D43610D00B0786D;
+					};
+					F81246632D43610F00B0786D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F81246432D43610D00B0786D;
+					};
+				};
+			};
+			buildConfigurationList = F812463F2D43610D00B0786D /* Build configuration list for PBXProject "SagarTaskCryptoApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F812463B2D43610D00B0786D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F81246452D43610D00B0786D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F81246432D43610D00B0786D /* SagarTaskCryptoApp */,
+				F81246592D43610E00B0786D /* SagarTaskCryptoAppTests */,
+				F81246632D43610F00B0786D /* SagarTaskCryptoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F81246422D43610D00B0786D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81246582D43610E00B0786D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81246622D43610F00B0786D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F81246402D43610D00B0786D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81246562D43610E00B0786D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81246602D43610F00B0786D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F812465C2D43610E00B0786D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F81246432D43610D00B0786D /* SagarTaskCryptoApp */;
+			targetProxy = F812465B2D43610E00B0786D /* PBXContainerItemProxy */;
+		};
+		F81246662D43610F00B0786D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F81246432D43610D00B0786D /* SagarTaskCryptoApp */;
+			targetProxy = F81246652D43610F00B0786D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F812466E2D43610F00B0786D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWJG424KM2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SagarTaskCryptoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sagar.SagarTaskCryptoApp.SagarTaskCryptoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F812466F2D43610F00B0786D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWJG424KM2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SagarTaskCryptoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sagar.SagarTaskCryptoApp.SagarTaskCryptoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F81246702D43610F00B0786D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F81246712D43610F00B0786D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F81246732D43610F00B0786D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWJG424KM2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sagar.SagarTaskCryptoApp.SagarTaskCryptoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SagarTaskCryptoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SagarTaskCryptoApp";
+			};
+			name = Debug;
+		};
+		F81246742D43610F00B0786D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWJG424KM2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sagar.SagarTaskCryptoApp.SagarTaskCryptoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SagarTaskCryptoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SagarTaskCryptoApp";
+			};
+			name = Release;
+		};
+		F81246762D43610F00B0786D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWJG424KM2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sagar.SagarTaskCryptoApp.SagarTaskCryptoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SagarTaskCryptoApp;
+			};
+			name = Debug;
+		};
+		F81246772D43610F00B0786D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWJG424KM2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sagar.SagarTaskCryptoApp.SagarTaskCryptoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SagarTaskCryptoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F812463F2D43610D00B0786D /* Build configuration list for PBXProject "SagarTaskCryptoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81246702D43610F00B0786D /* Debug */,
+				F81246712D43610F00B0786D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F812466D2D43610F00B0786D /* Build configuration list for PBXNativeTarget "SagarTaskCryptoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F812466E2D43610F00B0786D /* Debug */,
+				F812466F2D43610F00B0786D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81246722D43610F00B0786D /* Build configuration list for PBXNativeTarget "SagarTaskCryptoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81246732D43610F00B0786D /* Debug */,
+				F81246742D43610F00B0786D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81246752D43610F00B0786D /* Build configuration list for PBXNativeTarget "SagarTaskCryptoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81246762D43610F00B0786D /* Debug */,
+				F81246772D43610F00B0786D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F812463C2D43610D00B0786D /* Project object */;
+}
