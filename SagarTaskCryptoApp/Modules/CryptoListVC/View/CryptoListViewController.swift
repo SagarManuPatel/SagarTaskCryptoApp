@@ -13,11 +13,33 @@ class CryptoListViewController: UIViewController {
     private var viewModel: CryptoListViewModel!
     private var cancellables = Set<AnyCancellable>()
     
-    private let tableView = UITableView()
-    private let searchBar = UISearchBar()
-    private let filterView = UIView()
+    private lazy var tableView: UITableView = {
+        let tv = UITableView()
+        tv.translatesAutoresizingMaskIntoConstraints = false
+        tv.dataSource = self
+        tv.register(CryptoCell.self, forCellReuseIdentifier: "CryptoCell")
+        return tv
+    }()
+    
+    private lazy var searchBar: UISearchBar = {
+        let searchBar = UISearchBar()
+        searchBar.delegate = self
+        searchBar.placeholder = "Search"
+        return searchBar
+    }()
+    
+    private let filterView: UIView = {
+        let view = UIView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.backgroundColor = .systemGray6
+        return view
+    }()
+    
     let activeButton = CustomFilterButton(title: "Active Coins")
     let inactiveButton = CustomFilterButton(title: "Inactive Coins")
+    let onlyTokensButton = CustomFilterButton(title: "Only Tokens")
+    let onlyCoinsButton = CustomFilterButton(title: "Only Coins")
+    let newCoinsButton = CustomFilterButton(title: "New Coins")
     private let filterSegmentControl = UISegmentedControl(items: ["Active", "Type", "New"])
     
     override func viewDidLoad() {
@@ -30,19 +52,7 @@ class CryptoListViewController: UIViewController {
     
     private func setupUI() {
         view.backgroundColor = .white
-        
-        // Setup SearchBar
-        searchBar.delegate = self
         navigationItem.titleView = searchBar
-        
-        // Setup TableView
-        tableView.dataSource = self
-        tableView.register(CryptoCell.self, forCellReuseIdentifier: "CryptoCell")
-        tableView.translatesAutoresizingMaskIntoConstraints = false
-        
-        //setup filterview
-        filterView.translatesAutoresizingMaskIntoConstraints = false
-        
         //add cutomviews to container view
         view.addSubview(tableView)
         view.addSubview(filterView)
@@ -64,14 +74,7 @@ class CryptoListViewController: UIViewController {
     }
     
     private func setupFilterView() {
-        filterView.translatesAutoresizingMaskIntoConstraints = false
-        filterView.backgroundColor = .systemGray6
         view.addSubview(filterView)
-        
-        // Create buttons for each filter option
-        let onlyTokensButton = CustomFilterButton(title: "Only Tokens")
-        let onlyCoinsButton = CustomFilterButton(title: "Only Coins")
-        let newCoinsButton = CustomFilterButton(title: "New Coins")
         
         // Add actions for buttons
         activeButton.addTarget(self, action: #selector(filterButtonTapped(_:)), for: .touchUpInside)
@@ -131,8 +134,20 @@ class CryptoListViewController: UIViewController {
             sender.backgroundColor = sender.isSelected ? .systemBlue : .systemGray4
             viewModel.selectedFilters.isActive = sender.isSelected ? false : nil
         case "Only Tokens":
+            if sender.isSelected {
+                // Deselect "Active Coins" if "Inactive Coins" is selected
+                onlyCoinsButton.isSelected = false
+                onlyCoinsButton.backgroundColor = .systemGray4
+            }
+            sender.backgroundColor = sender.isSelected ? .systemBlue : .systemGray4
             viewModel.selectedFilters.type = sender.isSelected ? "token" : nil
         case "Only Coins":
+            if sender.isSelected {
+                // Deselect "Active Coins" if "Inactive Coins" is selected
+                onlyTokensButton.isSelected = false
+                onlyTokensButton.backgroundColor = .systemGray4
+            }
+            sender.backgroundColor = sender.isSelected ? .systemBlue : .systemGray4
             viewModel.selectedFilters.type = sender.isSelected ? "coin" : nil
         case "New Coins":
             viewModel.selectedFilters.isNew = sender.isSelected ? true : nil

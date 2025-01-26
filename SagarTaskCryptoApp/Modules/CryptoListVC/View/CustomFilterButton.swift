@@ -27,10 +27,4 @@ class CustomFilterButton: UIButton {
         setTitleColor(.black, for: .selected)
         backgroundColor = .systemGray4
     }
-    
-    // toggle button selection
-    func toggleSelection() {
-        isSelected.toggle()
-        backgroundColor = isSelected ? .systemBlue : .systemGray4
-    }
 }
