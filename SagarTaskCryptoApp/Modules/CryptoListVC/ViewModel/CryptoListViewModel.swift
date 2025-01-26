@@ -50,7 +50,7 @@ class CryptoListViewModel {
                     updatedCoin.setIconName(coin.type == "token" ? "token" : "bitcoin")
                     return updatedCoin
                 } ?? []
-                CacheManager.shared.saveToCache(coins)
+                CacheManager.shared.saveToCache(self?.allCoins ?? [])
             })
             .store(in: &cancellables)
     }

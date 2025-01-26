@@ -135,7 +135,7 @@ class CryptoListViewController: UIViewController {
             viewModel.selectedFilters.isActive = sender.isSelected ? false : nil
         case "Only Tokens":
             if sender.isSelected {
-                // Deselect "Active Coins" if "Inactive Coins" is selected
+                // Deselect "Only Coins" if "Only Tokens" is selected
                 onlyCoinsButton.isSelected = false
                 onlyCoinsButton.backgroundColor = .systemGray4
             }
@@ -143,7 +143,7 @@ class CryptoListViewController: UIViewController {
             viewModel.selectedFilters.type = sender.isSelected ? "token" : nil
         case "Only Coins":
             if sender.isSelected {
-                // Deselect "Active Coins" if "Inactive Coins" is selected
+                // Deselect "Only Tokens" if "Only Coins" is selected
                 onlyTokensButton.isSelected = false
                 onlyTokensButton.backgroundColor = .systemGray4
             }
@@ -196,7 +196,7 @@ extension CryptoListViewController: UITableViewDataSource {
     }
 }
 
-//MARK: - key board with done button
+//MARK: - Add Done Button to the Keyboard
 extension CryptoListViewController {
     func addDoneButtonOnKeyboard() {
         // Create a toolbar
